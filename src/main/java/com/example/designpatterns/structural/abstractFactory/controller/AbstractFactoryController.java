@@ -1,10 +1,6 @@
 package com.example.designpatterns.structural.abstractFactory.controller;
 
-import com.example.designpatterns.structural.abstractFactory.model.AbstractFactory;
 import com.example.designpatterns.structural.abstractFactory.model.AppConfigurator;
-import com.example.designpatterns.structural.factory.model.JungleTransport;
-import com.example.designpatterns.structural.factory.model.RoadTransport;
-import com.example.designpatterns.structural.factory.model.SeaTransport;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +21,6 @@ public class AbstractFactoryController {
         var factory = AppConfigurator.factoryConfig(type);
         return factory.CreateChair().getDescription() +
                 factory.CreateSofa().getDescription() +
-                factory.CreateSofa().getDescription();
+                factory.CreateCoffeeTable().getDescription();
     }
 }
