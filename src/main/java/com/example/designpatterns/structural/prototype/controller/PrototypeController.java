@@ -1,6 +1,6 @@
 package com.example.designpatterns.structural.prototype.controller;
 
-import com.example.designpatterns.structural.prototype.model.ShapesDB;
+import com.example.designpatterns.structural.singleton.model.ShapesDB;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

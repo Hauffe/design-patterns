@@ -1,5 +1,8 @@
-package com.example.designpatterns.structural.prototype.model;
+package com.example.designpatterns.structural.singleton.model;
 
+import com.example.designpatterns.structural.prototype.model.Circle;
+import com.example.designpatterns.structural.prototype.model.Rectangle;
+import com.example.designpatterns.structural.prototype.model.Shape;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -33,7 +36,7 @@ public class ShapesDB {
     }
 
     /**
-     * This is a singleton method just to illustrate an use with prototype pattern.
+     * This is a singleton method just used in prototype pattern as well.
      * @return ShapesDB instance
      */
     public static ShapesDB getInstance(){
