@@ -17,7 +17,7 @@ public class ShapesDB {
     private static ShapesDB instance;
 
     public ShapesDB() {
-        shapes = new ArrayList<Shape>();
+        shapes = new ArrayList<>();
         circle = new Circle();
         circle.setX(10);
         circle.setY(10);
